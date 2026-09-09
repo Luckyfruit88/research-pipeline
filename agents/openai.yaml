@@ -1,0 +1,6 @@
+interface:
+  display_name: "Research Pipeline · 计算研究实施与验证"
+  short_description: "Design, build, and verify computational research"
+  default_prompt: "Use $research-pipeline to advance this research question or existing analysis through the requested stage, with executable work and evidence-bounded conclusions."
+policy:
+  allow_implicit_invocation: true

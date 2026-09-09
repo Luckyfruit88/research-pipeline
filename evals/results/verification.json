@@ -1,0 +1,65 @@
+{
+  "version": "0.1.0",
+  "date": "2026-09-09",
+  "scope": "synthetic skill forward evaluation and isolated installer checks",
+  "runtime_files_sha256": {
+    "LICENSE": "0a2c55e8644ddc5c106467917946bcfdea06d1bf8a51ea7d883154dd72eb8d31",
+    "SKILL.md": "71170e7e3bfa5e82617d462e0ceb8bfc599e0a38cbf3e0c149901ecd450cbfb4",
+    "agents/openai.yaml": "4e2396e004f0dacb1fe5b3b03a76d976f4e9f2cf6ef1b375cf2026fe9d9734fa",
+    "references/design.md": "8ccd32cc42f54d6107e9d7aa2c4a3b5b8bc2ffe9c520081a58a1c6fe01abdbb2",
+    "references/evidence.md": "5d038dafcfb93ae25eedda59eebc644d533476f4b7acdb9d70aeea292655910f",
+    "references/execution.md": "fcb48e3e91f754add4d4dd012c899528131d405d173d1a3549ef9df395ad0b6d",
+    "references/state.md": "ed4dff9a2ead4335475deeb079c0dc922d090620b46a722682be8164d7740681",
+    "templates/stage-record.md": "4543869d7cc89a8a09fa81ee76f39ed20332def65ec8bafb54f9117048acbbd2"
+  },
+  "case_inputs_sha256": {
+    "interrupted-run/TASK.md": "81e21b0d151b42e3920c9543f4241dc98eb64f6b904bc15827f918780b87db85",
+    "interrupted-run/products/t01.txt": "495225d0ed352e1b5b3b576e9f7d7754737a07304c5647f9e8a1ee29e3ffb365",
+    "interrupted-run/products/t02.txt": "5a825ff250fba648e65715b4d55da767ca7cf35cc1516b245a078de955c7675e",
+    "interrupted-run/products/t03.txt": "d5f479edc8118ca0d8d8f9a78fa09a8dc62e6c457c97e454fcf513514f08f07c",
+    "interrupted-run/products/t04.txt": "ffc6520392755ab36584339ba4d4adda7930f116733b581a7e0d5afb3896dea2",
+    "interrupted-run/products/t06.txt": "423aec005c1072d5191de99d061a1b6c542c106bf4a3a58ffe78e2f8305551e3",
+    "interrupted-run/qacct.txt": "2ed62d39077b4c41bcf67ee5aebeb033ec9c8acac5dd0c18f1c8814f1e978afd",
+    "interrupted-run/receipts.json": "a49f0225b4612d2d7038719dc4a1a03b5d009aec99428050f69dbfa373915f2a",
+    "interrupted-run/run_summary.json": "151b05e87a25d1c3ccc43168c493a9e7dbe9a2f929352f3b6ac8966351baa28c",
+    "interrupted-run/task_manifest.json": "e0db5ec20d55da81669affac913e8c1f93726a66289da3a83be3f30d140f357f",
+    "measurement-design/TASK.md": "d636bb2a5c9de3c08ce85abc6e16f06c73beb15288aa260fe7d277205189f43a",
+    "measurement-design/inventory.md": "61c2a4544e48a49be07b8f5c960a282493d9ffa29381044f4aadd15dd094c27e",
+    "stage-transition/TASK.md": "129db911cf3f73dc661fc45b06f57709bbaa8b9c80312ec3dd031edb132f313d",
+    "stage-transition/history.md": "8f3986749d5b0215eb458413a291c2f47e3215df046409e83ceb751a3861ef00",
+    "stage-transition/inventory.json": "b6437151412b81b7ad235542e489454e0ed12cd6ce902b9839151ae8cef229dd"
+  },
+  "local_output_fingerprints": {
+    "stage-transition": {
+      "HANDOFF.md": "8646cd08b975bd933c6c3068a5cf6ad6eb9e99611707d76fa515c78108d61a54",
+      "data-task-contract.md": "7136fd80f80e0c4eb55da0b99079dcd68f190644b5b276da8948c74aa1419230",
+      "evaluation-plan.md": "f499f4f886ee2a907940d0acb974a265ee85870bf5da477a6f61bfb62c61f132",
+      "execution-checklist.md": "63bd826a60bac51b62d91c888e343658c5e9f04aff9a2a0164847565ba98790b",
+      "module-interfaces.md": "3d93b77e4a4c794f06b69fd3901866b4a8ac2dc08e66467c9ca9a0ba0afceb32",
+      "stage3-contract.json": "dc1424a8bb28e987ff3d561bd2e05cc35257af61fda84a149dfec62f7a8af926",
+      "validation-receipt.json": "02db28debda2b2725e8277276b39418cceaf080765adbc250d4c5111cb5aaee6"
+    },
+    "measurement-design": {
+      "measurement-spec.json": "20c4cae8378d144f25ca03b1d510f851d8e72a5637b033f87769256f42202537",
+      "preflight-receipt.json": "9702514aa12f7a4a9e58f8b3b38f8ffa9ba3335a0e3a0c96bc568399e2d44f7b",
+      "preflight.py": "0162124001241bfb00b1585ce6cb72eb57889bca96836de01e0950a84a6c69a0",
+      "protocol.md": "8b66e78a390ed3eaf2b18718baed4cc47c07e694164771b1df706a2799c5cd2a"
+    },
+    "interrupted-run": {
+      "README.md": "474d190bca04054e60e5db3291b1dbfef02f031f09072625811a22992c21682e",
+      "execution_receipt.json": "555595805d3d86f24191eb51dba17d5d16f33c7503326dcaa752db228b486d23",
+      "parent-reconciliation.json": "fe45f20ab3390debecfd45a467de5dc2a1852e4f1a99950876daeb9e0bce9d24",
+      "reconcile.py": "136a0d147ed9bfd3f9817299d0c694b5cb2b56ce243a4f6dc68503b88f1fe535",
+      "reconciliation.json": "fe45f20ab3390debecfd45a467de5dc2a1852e4f1a99950876daeb9e0bce9d24"
+    }
+  },
+  "installer_unit_tests": 23,
+  "behavior_cases_reviewed": 3,
+  "real_research_or_cluster_validation": false,
+  "model_revision": "Inherited runtime; provider revision not independently pinned",
+  "installer_review": {
+    "sha256": "cd94a9a78fd9be5abdd268dbf199381d1b95dd899518dedf809954a05c8bd7df",
+    "original_failure_reproductions": "resolved",
+    "scope": "interrupted promotion, case-aliased target, case-aliased source"
+  }
+}

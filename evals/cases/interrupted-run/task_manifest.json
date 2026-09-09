@@ -1,0 +1,34 @@
+{
+  "fictional": true,
+  "version": "toy-v1",
+  "tasks": [
+    {
+      "id": "t01",
+      "output": "products/t01.txt"
+    },
+    {
+      "id": "t02",
+      "output": "products/t02.txt"
+    },
+    {
+      "id": "t03",
+      "output": "products/t03.txt"
+    },
+    {
+      "id": "t04",
+      "output": "products/t04.txt"
+    },
+    {
+      "id": "t05",
+      "output": "products/t05.txt"
+    },
+    {
+      "id": "t06",
+      "output": "products/t06.txt"
+    },
+    {
+      "id": "t07",
+      "output": "products/t07.txt"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "fictional": true,
+  "state": "INFRASTRUCTURE_FATAL",
+  "received_total": 0,
+  "intended_total": 2,
+  "message": "controller interrupted during summary replacement"
+}

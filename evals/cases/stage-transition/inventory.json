@@ -1,0 +1,43 @@
+{
+  "fictional": true,
+  "reference": "assembly-demo-v1",
+  "native_tools": [
+    "tool-a-v1",
+    "tool-b-v2"
+  ],
+  "tasks": [
+    {
+      "id": "tool-a-proxy",
+      "origin": "native tool output",
+      "observed_train_labels": 80,
+      "units": "native_score"
+    },
+    {
+      "id": "assay-ratio",
+      "origin": "experimental measurement",
+      "observed_train_labels": 48,
+      "units": "fraction",
+      "context": "cell-context-demo"
+    },
+    {
+      "id": "binding-measurement",
+      "origin": "experimental measurement",
+      "observed_train_labels": 0,
+      "units": "assay-intensity"
+    }
+  ],
+  "relations": {
+    "derived": [
+      "a.ref",
+      "a.alt",
+      "a.delta",
+      "a.combined"
+    ],
+    "validation_groups": "construct + endpoint + related-gene groups; some relations unknown"
+  },
+  "splits": {
+    "development": "available",
+    "previous_test": "outcomes already inspected",
+    "new_independent_test": "not yet available"
+  }
+}

@@ -1,0 +1,35 @@
+==============================================================
+qname demo.q
+hostname example.invalid
+jobnumber 900001
+taskid 1
+failed 0
+exit_status 0
+==============================================================
+qname demo.q
+hostname example.invalid
+jobnumber 900001
+taskid 2
+failed 0
+exit_status 0
+==============================================================
+qname demo.q
+hostname example.invalid
+jobnumber 900001
+taskid 3
+failed 0
+exit_status 0
+==============================================================
+qname demo.q
+hostname example.invalid
+jobnumber 900001
+taskid 4
+failed 100
+exit_status 137
+==============================================================
+qname demo.q
+hostname example.invalid
+jobnumber 900001
+taskid 7
+failed 0
+exit_status 0

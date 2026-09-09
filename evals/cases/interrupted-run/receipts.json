@@ -1,0 +1,54 @@
+{
+  "fictional": true,
+  "receipts": [
+    {
+      "task_id": "t01",
+      "output": "products/t01.txt",
+      "sha256": "495225d0ed352e1b5b3b576e9f7d7754737a07304c5647f9e8a1ee29e3ffb365",
+      "job_id": "900001",
+      "array_task_id": "1"
+    },
+    {
+      "task_id": "t02",
+      "output": "products/t02.txt",
+      "sha256": "5a825ff250fba648e65715b4d55da767ca7cf35cc1516b245a078de955c7675e",
+      "job_id": "900001",
+      "array_task_id": "2"
+    },
+    {
+      "task_id": "t03",
+      "output": "products/t03.txt",
+      "sha256": "6f87a9b5bba19e1cb5640a3282e89c0905f78ba0e725e652e300c15ec59ac5a7",
+      "job_id": "900001",
+      "array_task_id": "3"
+    },
+    {
+      "task_id": "t04",
+      "output": "products/t04.txt",
+      "sha256": "ffc6520392755ab36584339ba4d4adda7930f116733b581a7e0d5afb3896dea2",
+      "job_id": "900001",
+      "array_task_id": "4"
+    },
+    {
+      "task_id": "t05",
+      "output": "products/t05.txt",
+      "sha256": "f79e83a5d760cd8e54b0e528ca21fc5a061a5741b34d3d92e28e509d9d5bc17a",
+      "job_id": "900001",
+      "array_task_id": "5"
+    },
+    {
+      "task_id": "t06",
+      "output": "products/t06.txt",
+      "sha256": "423aec005c1072d5191de99d061a1b6c542c106bf4a3a58ffe78e2f8305551e3",
+      "job_id": "900001",
+      "array_task_id": "6"
+    },
+    {
+      "task_id": "t07",
+      "output": "products/t07.txt",
+      "sha256": "516a8f5ce8af292410e7077bbc4ff5af6bc759b6538977abf480b32b2a226d43",
+      "job_id": "900001",
+      "array_task_id": "7"
+    }
+  ]
+}
