@@ -20,6 +20,8 @@ Recommend one path with reasons, while preserving the comparison range requested
 
 Specify the numerator, denominator, time or biological context, measurement unit, relevant population and allowable inference. Distinguish the organism or participant, intervention or experimental unit, sample/library, measurement, and analysis record.
 
+Record the order of normalization, eligibility filtering and aggregation. A median or mean of per-unit ratios can differ from a pooled ratio; preserve the operation and weighting defined by the question or authoritative implementation. Clarifying an existing metric does not require starting a new analysis.
+
 For sequencing or linked measurements, ask whether the required pieces are observed together in the same physical or analytically justified unit. Two marginal measurements do not establish their joint arrangement. An annotated possibility is not an observed outcome. If the proposed linkage cannot be recovered, identify the unavailable inference rather than substituting a different endpoint.
 
 Check detectability, mapping or measurement bias, missingness, error rates and reference conventions. Test interactions that could imitate the target contrast; a good overall measurement rate can hide a biased subgroup contrast.

@@ -4,7 +4,7 @@ Use for research code, adapters, workflow engines, shared compute and failed-run
 
 ## Preflight and smallest discriminating run
 
-Inspect the worktree, active jobs, existing outputs, project instructions and current resource/tool inventory. Reuse suitable resources before downloading or installing. A tool executable, its reference bundle and a usable input dataset are separate prerequisites.
+Inspect the worktree, instructions, resources, outputs and active jobs that the current change can affect; reuse still-valid preflight evidence. Reuse suitable resources before downloading or installing. A tool executable, its reference bundle and a usable input dataset are separate prerequisites.
 
 Use the authorized branch/worktree and preserve unrelated work. Keep controlled inputs and detailed results within the approved environment. Before a public release, review the exact publishable files; do not copy private logs, host paths or study material into a generic skill or example.
 

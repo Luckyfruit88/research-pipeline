@@ -1,0 +1,95 @@
+{
+  "version": "0.1.1",
+  "recorded_at_utc": "2026-09-29T04:10:42.131147+00:00",
+  "base_commit": "bea7b50c4ec1cb559ee97f375e1c04180e1b9f3c",
+  "evaluation_method": "maintainer manual scenario review plus executed arithmetic fixture; not a blind model forward-test",
+  "metric_fixture": {
+    "eligible_percentages": [
+      20.0,
+      10.0,
+      60.0
+    ],
+    "implemented_median": 20.0,
+    "mean_of_percentages": 30.0,
+    "pooled_percentage": 23.75
+  },
+  "check_reuse_review": [
+    {
+      "case": "doc-clarification",
+      "reuse": "accepted bound implementation/data checks",
+      "check_now": "changed wording against authoritative metric definition",
+      "pipeline_execution": "not needed for this request",
+      "user_action": "none required"
+    },
+    {
+      "case": "new-input",
+      "reuse": "applicable unchanged implementation checks",
+      "refresh": "new-input validation and input-dependent results",
+      "pipeline_execution": "not authorized by this review-only request",
+      "verdict": "new-input result remains unverified"
+    }
+  ],
+  "prior_model_forward_runs_repeated": false,
+  "installer_code_changed": false,
+  "runtime_sha256": {
+    "SKILL.md": "7ef83750cf96ff78d638cd2f759a2c718f19f6d09a0fdab402e6443e1bb91e18",
+    "LICENSE": "0a2c55e8644ddc5c106467917946bcfdea06d1bf8a51ea7d883154dd72eb8d31",
+    "agents/openai.yaml": "4e2396e004f0dacb1fe5b3b03a76d976f4e9f2cf6ef1b375cf2026fe9d9734fa",
+    "references/evidence.md": "5d038dafcfb93ae25eedda59eebc644d533476f4b7acdb9d70aeea292655910f",
+    "references/state.md": "ed4dff9a2ead4335475deeb079c0dc922d090620b46a722682be8164d7740681",
+    "references/execution.md": "146273fb1cb5a8e9ce1eb32ca7eff40ceb51b524867a9cf090019e903196d2f7",
+    "references/design.md": "2e76d9131fedc18c4ce6c4ce395e7487eb81c9da717babba42398ac1ea55f50b",
+    "templates/stage-record.md": "4543869d7cc89a8a09fa81ee76f39ed20332def65ec8bafb54f9117048acbbd2"
+  },
+  "upstream_review": [
+    {
+      "repo": "Galaxy-Dawn/claude-scholar",
+      "head": "b672e80951a2348dd6136316d096603bf2dc5b83",
+      "date": "2026-09-23T07:02:54Z",
+      "reviewed_file": "skills/research-ideation/references/research-contract.md",
+      "license_observed": "MIT",
+      "decision": "Retain the existing claim/evidence contract; no new runtime dependency."
+    },
+    {
+      "repo": "Orchestra-Research/AI-Research-SKILLs",
+      "head": "773a52944ba4747a18bd4ae9ade53fff041adcbc",
+      "date": "2026-06-16T01:36:40Z",
+      "reviewed_file": "README.md",
+      "license_observed": "MIT",
+      "decision": "Default-branch head predates the previous release; no relevant change adopted."
+    },
+    {
+      "repo": "Imbad0202/academic-research-skills",
+      "head": "96a442eb2b4ed29ce6746348714f9632efcf2163",
+      "date": "2026-09-29T03:21:25Z",
+      "reviewed_file": "POSITIONING.md",
+      "license_observed": "CC BY-NC 4.0 (POSITIONING.md)",
+      "decision": "Manuscript-oriented scope remains separate; no content or code vendored."
+    },
+    {
+      "repo": "nextflow-io/agent-skills",
+      "head": "a19bbe21fc19b816befbb29006e72550ef3068a6",
+      "date": "2026-08-05T22:02:28Z",
+      "reviewed_file": "README.md",
+      "license_observed": "Apache-2.0",
+      "decision": "Default-branch head predates the previous release; do not force an engine migration."
+    },
+    {
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "head": "065b734670d7d990627dbc06a05b5a99be33f1f1",
+      "date": "2026-09-28T09:31:55Z",
+      "reviewed_file": "skills/statistical-analysis/SKILL.md",
+      "license_observed": "MIT",
+      "decision": "Reviewed statistical-analysis guidance; retain optional specialist use and explicit units."
+    },
+    {
+      "repo": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "head": "c4535ea8ae1e013399a2525dc7d285859f672b62",
+      "date": "2026-09-28T09:39:52Z",
+      "reviewed_file": "README.md",
+      "license_observed": "MIT",
+      "decision": "Recent CLI/runtime changes do not justify expanding this skill's workflow."
+    }
+  ],
+  "upstream_code_vendored": false
+}

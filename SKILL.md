@@ -3,7 +3,7 @@ name: research-pipeline
 description: "Design and advance computational research from existing data to executable analyses and verifiable results. Use for research questions, study or experiment design, scientific feasibility, bioinformatics pipelines, model evaluation, and research-pipeline repair. 科研设计、研究方向、实验设计、科学可行性、搭建或修复分析流程。Do not use for a standalone factual lookup, translation, or prose-only edit."
 license: MIT
 metadata:
-  version: "0.1.0"
+  version: "0.1.1"
 ---
 
 # Research Pipeline
@@ -23,7 +23,7 @@ Read only the relevant references. A design request does not authorize executing
 
 ## Establish the current contract
 
-Inspect the authoritative project instructions, current code and worktree, decisions, input inventories, and applicable execution receipts. Prior discussion and memory help locate evidence; refresh facts that affect this stage.
+Inspect only the authoritative instructions, inputs and evidence needed for the current stage. Inspect code/worktree and execution receipts when this task depends on implementation or prior runs; reuse records that remain valid. Refresh facts that affect this stage.
 
 Identify:
 - the research object, target state, observable measurements and existing evidence;
@@ -73,8 +73,8 @@ Report:
 - the new usable capability or finding;
 - what was verified, with the relevant artifacts or receipts;
 - what remains uncertain or blocked and the exact dependency;
-- one concrete next decision or action only when work remains.
+- a concrete request only when user input, a decision, or manual action is necessary.
 
-Lead with the result and use the user's language. Keep progress brief and informative. Store detailed state in existing project records; use the optional [stage record](templates/stage-record.md) only when no suitable record exists. Do not repeatedly ask for authorization already granted.
+Lead with the result and use the user's language. Keep progress brief and informative. Store detailed state in existing project records; use the optional [stage record](templates/stage-record.md) only when no suitable record exists. Do not repeatedly ask for authorization already granted. Stop when the requested deliverables and relevant verification are complete; do not create follow-on work solely to keep the workflow running.
 
 Specialist skills, MCP tools and workflow engines are optional execution resources, not prerequisites for this skill. Reuse available domain skills for literature, NGS, statistics, figures, specifications and writing; keep this skill responsible for the research-stage contract and final synthesis.
