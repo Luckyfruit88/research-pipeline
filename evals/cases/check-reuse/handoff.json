@@ -1,0 +1,34 @@
+{
+  "fictional": true,
+  "identity_labels_are_not_file_hashes": true,
+  "requests": [
+    {
+      "id": "doc-clarification",
+      "authorized_action": "clarify the description of an existing metric",
+      "changes": [
+        "documentation wording"
+      ],
+      "unchanged": [
+        "implementation",
+        "input data",
+        "measurement definition",
+        "environment"
+      ],
+      "prior_evidence": "accepted implementation and data checks with matching bound identities"
+    },
+    {
+      "id": "new-input",
+      "authorized_action": "review readiness for the same analysis on a new input file",
+      "changes": [
+        "input data"
+      ],
+      "unchanged": [
+        "implementation",
+        "measurement definition",
+        "environment"
+      ],
+      "prior_evidence": "accepted result belongs to the old input; new-input checks have not run"
+    }
+  ],
+  "requested_deliverable": "a bounded decision about evidence reuse, with no actual analysis execution"
+}

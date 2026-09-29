@@ -9,7 +9,7 @@ Research Pipeline helps turn existing data and a research question into a comple
 ## What it helps with
 
 - Turn an existing resource inventory into a testable question and measurable endpoint.
-- Design comparisons with explicit units, dependence, leakage controls and uncertainty.
+- Design comparisons with explicit units, normalization/aggregation order, dependence, leakage controls and uncertainty.
 - Build or repair research pipelines, preserving native tool semantics and failed-run evidence.
 - Verify real execution, shared-compute budgets, recovery, artifact integrity and final receipts.
 - Resume work without reviving obsolete stage restrictions or losing unresolved limitations.
@@ -32,6 +32,8 @@ Keep unavailable biological validation separate from the software deliverables.
 Use $research-pipeline to investigate interrupted batches.
 Recover valid products, account for the complete target list, and verify the repair.
 ~~~
+
+For bounded research questions, inspect only relevant inputs, reuse still-valid checks, and stop when the requested deliverable is complete.
 
 It does not normally activate for a standalone factual lookup, translation or prose-only edit. It complements available domain, statistics, NGS, specification and writing skills without requiring them.
 
@@ -83,7 +85,7 @@ python3 scripts/check_package.py
 python3 -m unittest discover -s tests -v
 ~~~
 
-Package checks cover local links, runtime files and metadata. Installer tests use temporary directories. [Behavioral cases](evals/README.md) use fabricated fixtures and do not contact a real cluster. See [the version 0.1.0 evaluation record](evals/results/v0.1.0.md) for the actual tested scope and limitations.
+Package checks cover local links, runtime files and metadata. Installer tests use temporary directories. [Behavioral cases](evals/README.md) use fabricated fixtures and do not contact a real cluster. See [the version 0.1.1 evaluation record](evals/results/v0.1.1.md) for this patch and [the initial evaluation](evals/results/v0.1.0.md) for the original forward-runs; their scopes and limitations remain separate.
 
 For changes, keep the entrypoint small, move conditional guidance into references, and rerun the relevant behavioral cases. A reference case is a regression aid, not evidence of broad model reliability.
 

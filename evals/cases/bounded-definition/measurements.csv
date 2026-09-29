@@ -1,0 +1,5 @@
+unit,numerator,denominator,eligible
+A,2,10,yes
+B,5,50,yes
+C,12,20,yes
+D,2,2,no
