@@ -1,0 +1,121 @@
+{
+  "version": "0.1.2",
+  "recorded_at_utc": "2026-10-10T09:14:42.455227+00:00",
+  "base_commit": "0fcf93c6a457c3d1ad15c577dc8aedba2654ce53",
+  "evaluation_method": "maintainer scenario review with executed standard-library examples, not a blind agent evaluation",
+  "python_version": "3.14.4",
+  "method_fidelity": {
+    "current_values": [
+      0.4,
+      0.6
+    ],
+    "source_columns_and_row_ids_preserved": true,
+    "historical_execution": "not established by the supplied evidence"
+  },
+  "cache_stages": {
+    "joint_features": [
+      "shared"
+    ],
+    "separate_then_concatenated": [],
+    "equivalent": false,
+    "recovery_jobs_executed": false
+  },
+  "recovery_plan_review": {
+    "reuse": [
+      "A",
+      "B"
+    ],
+    "recover_missing": [
+      "C"
+    ],
+    "joint_stage": "run the native cohort operation over A,B,C after all required caches are accepted",
+    "cohort_complete": false
+  },
+  "installer_code_changed": false,
+  "runtime_sha256": {
+    "SKILL.md": "ed497b8ccbcd5eb67214c2e9dd8d0c01e83d8626897ad1eb6ddc468bd0cf3c38",
+    "LICENSE": "0a2c55e8644ddc5c106467917946bcfdea06d1bf8a51ea7d883154dd72eb8d31",
+    "agents/openai.yaml": "4e2396e004f0dacb1fe5b3b03a76d976f4e9f2cf6ef1b375cf2026fe9d9734fa",
+    "references/evidence.md": "39f9ef64cbee4f877ca08fff1a34137d7f42c6017d37b1647e31d21f907f36b7",
+    "references/state.md": "ed4dff9a2ead4335475deeb079c0dc922d090620b46a722682be8164d7740681",
+    "references/execution.md": "edceb9b1b9a98a0f8d4e9d289f0e6dc21e5f48d27670050d73156dfe219886ff",
+    "references/design.md": "2e76d9131fedc18c4ce6c4ce395e7487eb81c9da717babba42398ac1ea55f50b",
+    "templates/stage-record.md": "4543869d7cc89a8a09fa81ee76f39ed20332def65ec8bafb54f9117048acbbd2"
+  },
+  "upstream_review": [
+    {
+      "repo": "Galaxy-Dawn/claude-scholar",
+      "branch": "codex",
+      "head": "b672e80951a2348dd6136316d096603bf2dc5b83",
+      "date": "2026-09-23T07:02:54Z",
+      "subject": "Merge pull request #51 from Galaxy-Dawn/fix/issue-49-codex",
+      "archived": false,
+      "license": "MIT",
+      "private": false,
+      "license_observed": "MIT",
+      "decision": "Reviewed branch unchanged; reuse the previous claim/evidence-contract assessment."
+    },
+    {
+      "repo": "Orchestra-Research/AI-Research-SKILLs",
+      "branch": "main",
+      "head": "773a52944ba4747a18bd4ae9ade53fff041adcbc",
+      "date": "2026-06-16T01:36:40Z",
+      "subject": "release: v1.7.2 \u2014 ship Qoder agent auto-detection to npm",
+      "archived": false,
+      "license": "MIT",
+      "private": false,
+      "license_observed": "MIT",
+      "decision": "Reviewed branch unchanged; no new dependency or workflow needed."
+    },
+    {
+      "repo": "Imbad0202/academic-research-skills",
+      "branch": "main",
+      "head": "e614b322297ba5b072a106942177e218cbe2d48f",
+      "date": "2026-10-09T00:20:17Z",
+      "subject": "test(stance-runner): pin the cross-candidate guard message exactly (#957) (#958)",
+      "archived": false,
+      "license": "NOASSERTION",
+      "private": false,
+      "license_observed": "CC BY-NC 4.0 (POSITIONING.md)",
+      "decision": "Reviewed updated positioning; manuscript integrity checks still do not certify original experiment execution. No content vendored."
+    },
+    {
+      "repo": "nextflow-io/agent-skills",
+      "branch": "master",
+      "head": "1edf73763da408c410074568f228a75fc6d42864",
+      "date": "2026-10-07T20:39:00Z",
+      "subject": "Add CI to validate plugin and marketplace manifests (#6)",
+      "archived": false,
+      "license": "Apache-2.0",
+      "private": false,
+      "license_observed": "Apache-2.0",
+      "decision": "Reviewed CI manifest-validation addition and agent-guidance rename; existing package CI is sufficient for this standalone skill."
+    },
+    {
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "branch": "main",
+      "head": "92ace75ac21efe19a620434e0ca4e356081fe807",
+      "date": "2026-10-05T09:39:10Z",
+      "subject": "chore: update security scan report [skip ci]",
+      "archived": false,
+      "license": "MIT",
+      "private": false,
+      "license_observed": "MIT",
+      "decision": "Reviewed statistical-analysis update: explicit estimands and version-aware reproduction support the scoped fidelity clarification. Package pins remain optional and are not adopted."
+    },
+    {
+      "repo": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "branch": "main",
+      "head": "26b95cfa0d8747078e9e43b42e20952709e561b8",
+      "date": "2026-10-07T07:46:15Z",
+      "subject": "fix(mermaid-diagram): don't print \"Syntax valid\" when the render command fails (#460)",
+      "archived": false,
+      "license": "MIT",
+      "private": false,
+      "license_observed": "MIT",
+      "decision": "Reviewed render-success reporting fix; existing exit-status/artifact requirements already cover this failure mode."
+    }
+  ],
+  "upstream_implementation_vendored": false,
+  "new_runtime_dependencies": []
+}

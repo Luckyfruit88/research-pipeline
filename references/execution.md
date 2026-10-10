@@ -12,6 +12,8 @@ Start with a bounded case that exercises the actual interface or failure mode. K
 
 After that diagnostic, complete the full requested stage within the approved resource envelope. Do not stop permanently at a smoke test.
 
+When extending an existing result table, preserve source columns and stable row identities through joins or one-to-many expansion within the approved data-sharing boundary. Apply only requested reductions. Keep presentation exclusions distinct from upstream analysis eligibility.
+
 ## Shared compute and scheduler evidence
 
 Discover the actual scheduler and site conventions. Do not translate Slurm examples into another scheduler by changing command names alone.
@@ -34,6 +36,8 @@ Separate:
 - summaries or indexes derived from the authoritative records.
 
 Reconcile products from the frozen task list, receipts, logs and hashes. A stale failure summary need not invalidate an independently verified recovered product; a successful process exit does not repair a corrupt product. Report ready, failed, missing and active objects without hiding their relationship to the intended universe.
+
+Bind reusable intermediates to their computational stage as well as source/configuration identities. Preserve validated per-item caches and the frozen input order. When a later stage derives features, denominators or model parameters jointly, per-item processing followed by concatenation requires demonstrated equivalence. Recover the missing eligible intermediates, then perform the joint stage on its intended input universe.
 
 Retry or regenerate only what the evidence requires. Prefer idempotent reconciliation and incremental publication where repeated full copies are costly. Stage immutable results and atomically promote a complete version where the project needs interruption-safe publication. Do not overwrite source evidence.
 

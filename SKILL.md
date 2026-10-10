@@ -3,7 +3,7 @@ name: research-pipeline
 description: "Design and advance computational research from existing data to executable analyses and verifiable results. Use for research questions, study or experiment design, scientific feasibility, bioinformatics pipelines, model evaluation, and research-pipeline repair. 科研设计、研究方向、实验设计、科学可行性、搭建或修复分析流程。Do not use for a standalone factual lookup, translation, or prose-only edit."
 license: MIT
 metadata:
-  version: "0.1.1"
+  version: "0.1.2"
 ---
 
 # Research Pipeline
