@@ -1,0 +1,31 @@
+{
+  "fictional": true,
+  "frozen_order": [
+    "A",
+    "B",
+    "C"
+  ],
+  "valid_split_cache_ids": [
+    "A",
+    "B"
+  ],
+  "missing_split_cache_ids": [
+    "C"
+  ],
+  "native_joint_stage": "Retain features with a positive count in at least two samples in the complete frozen batch.",
+  "proposed_shortcut": "Run that feature-selection rule separately for each sample and concatenate the selected features.",
+  "toy_complete_counts_for_counterexample": {
+    "A": {
+      "shared": 4,
+      "only_A": 2
+    },
+    "B": {
+      "shared": 3,
+      "only_B": 1
+    },
+    "C": {
+      "only_C": 5
+    }
+  },
+  "scope": "Counterexample counts illustrate the algorithm; they are not receipts that missing recovery jobs ran."
+}

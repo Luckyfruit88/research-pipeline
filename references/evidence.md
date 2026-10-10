@@ -20,6 +20,12 @@ Preserve one-to-many mappings, ambiguous records and exclusion reasons. Report t
 
 Keep experiment specification identity separate from attempt identity. If results are content-addressed, include all outcome-relevant identities or bind them by verified references: code, data, reference resources, resolved configuration, parameters/model revision, environment and evaluation protocol. Recording a field in a manifest does not prove it participated in the identifier or execution.
 
+## Reproducing an existing method
+
+Establish the requested match: a documented definition, a current re-execution, or proof of a historical run. Preserve the reference/annotation, coordinates, counting unit, filters, missing/zero conventions and aggregation order required by that match. Interpret command flags together with the tool version. If the user corrects the method, mark incompatible attempts as superseded, preserve their evidence, and proceed under the updated authorized contract.
+
+Formula or table agreement can support a reconstruction; identifying the historically executed binary, parameters and per-value lineage requires bound run evidence. Report missing historical evidence explicitly. An approved current re-execution can proceed with its own version and receipt without certifying the historical execution.
+
 ## Training exposure and holdout
 
 For the fixed tool/model version, distinguish target-label exposure, construct or allele exposure, sequence/locus exposure, possible shared source pools and unknown membership. Apply exclusions or claims proportionately.

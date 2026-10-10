@@ -1,0 +1,15 @@
+{
+  "fictional": true,
+  "requested_scope": "current re-execution of a documented definition, not certification of the historical run",
+  "definition": "metric = numerator / denominator; denominator zero is unavailable",
+  "approved_current_runtime": "available Python 3 standard library; record the actual version",
+  "historical_formula_available": true,
+  "historical_binary_version": null,
+  "historical_execution_receipt": null,
+  "archived_values": [
+    0.4,
+    0.6
+  ],
+  "output": "append metric, preserving original columns and row identity",
+  "explicit_row_exclusions": []
+}
