@@ -1,0 +1,93 @@
+{
+  "notice": "All identifiers, bindings, visits and records are fabricated.",
+  "records": [
+    {
+      "sample_id": "DNA-21",
+      "participant_id": "PERSON-A",
+      "assay": "DNA",
+      "collection_visit": null,
+      "file_binding": {
+        "kind": "vcf-column",
+        "value": "fixture-col-21"
+      }
+    },
+    {
+      "sample_id": "DNA-22",
+      "participant_id": "PERSON-A",
+      "assay": "DNA",
+      "collection_visit": "visit-4",
+      "file_binding": {
+        "kind": "vcf-column",
+        "value": "fixture-col-22"
+      }
+    },
+    {
+      "sample_id": "RNA-21",
+      "participant_id": "PERSON-A",
+      "assay": "RNA",
+      "collection_visit": "visit-4",
+      "file_binding": {
+        "kind": "bam",
+        "value": "fixture/rna-21.bam"
+      }
+    },
+    {
+      "sample_id": "DNA-31",
+      "participant_id": "PERSON-B",
+      "assay": "DNA",
+      "collection_visit": "visit-2",
+      "file_binding": {
+        "kind": "vcf-column",
+        "value": "fixture-col-31"
+      }
+    },
+    {
+      "sample_id": "RNA-31",
+      "participant_id": "PERSON-C",
+      "assay": "RNA",
+      "collection_visit": "visit-2",
+      "file_binding": {
+        "kind": "bam",
+        "value": "fixture/rna-31.bam"
+      }
+    },
+    {
+      "sample_id": "DNA-41",
+      "participant_id": "PERSON-D",
+      "assay": "DNA",
+      "collection_visit": "visit-6",
+      "file_binding": {
+        "kind": "vcf-column",
+        "value": "fixture-col-41"
+      }
+    },
+    {
+      "sample_id": "RNA-41",
+      "participant_id": "PERSON-D",
+      "assay": "RNA",
+      "collection_visit": "visit-6",
+      "file_binding": {
+        "kind": "bam",
+        "value": "fixture/rna-41.bam"
+      }
+    }
+  ],
+  "candidates": [
+    {
+      "pair_id": "pair-1",
+      "dna": "DNA-21",
+      "rna": "RNA-21"
+    },
+    {
+      "pair_id": "pair-2",
+      "dna": "DNA-31",
+      "rna": "RNA-31"
+    },
+    {
+      "pair_id": "pair-3",
+      "dna": "DNA-41",
+      "rna": "RNA-41.0"
+    }
+  ],
+  "evidence_scope": "Authoritative fictional crosswalk and documentary file bindings only; no BAM or VCF contents, molecular fingerprints or QC results are supplied."
+}
