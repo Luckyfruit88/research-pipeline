@@ -20,6 +20,12 @@ Preserve one-to-many mappings, ambiguous records and exclusion reasons. Report t
 
 Keep experiment specification identity separate from attempt identity. If results are content-addressed, include all outcome-relevant identities or bind them by verified references: code, data, reference resources, resolved configuration, parameters/model revision, environment and evaluation protocol. Recording a field in a manifest does not prove it participated in the identifier or execution.
 
+## Linking participants, specimens and files
+
+When linking assays or visits, keep participant, specimen, collection event and file/column identities distinct. Use authoritative crosswalks and documented exact identifiers. Preserve one-to-many mappings and conflicts; normalization or alias resolution needs a validated mapping, not resemblance, a filename or an assumed removable suffix. Keep missing specimen-specific visits unknown rather than borrowing another specimen's visit from the same participant.
+
+State which level the evidence supports. Identifier linkage and file binding do not by themselves establish molecular identity, same-visit sampling, QC-passing counts or statistical independence. Whether visit alignment is required depends on the study design; unresolved linkage blocks only the analyses and claims that depend on it.
+
 ## Reproducing an existing method
 
 Establish the requested match: a documented definition, a current re-execution, or proof of a historical run. Preserve the reference/annotation, coordinates, counting unit, filters, missing/zero conventions and aggregation order required by that match. Interpret command flags together with the tool version. If the user corrects the method, mark incompatible attempts as superseded, preserve their evidence, and proceed under the updated authorized contract.

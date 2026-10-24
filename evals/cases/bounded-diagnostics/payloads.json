@@ -1,0 +1,51 @@
+{
+  "notice": "All payload contents are fabricated. For this exercise only aggregate output is authorized outside the temporary output directory.",
+  "allowed_report_fields": [
+    "container_type",
+    "status",
+    "record_count",
+    "accepted_count",
+    "unknown_status_count"
+  ],
+  "payloads": [
+    {
+      "label": "record_array",
+      "value": [
+        {
+          "sample_id": "FIXTURE_PRIVATE_ALPHA",
+          "path": "fixture/private/alpha.bam",
+          "status": "accepted"
+        },
+        {
+          "sample_id": "FIXTURE_PRIVATE_BETA",
+          "path": "fixture/private/beta.bam",
+          "status": "accepted"
+        },
+        {
+          "sample_id": "FIXTURE_PRIVATE_GAMMA",
+          "path": "fixture/private/gamma.bam",
+          "status": "FIXTURE_PRIVATE_STATUS"
+        }
+      ]
+    },
+    {
+      "label": "id_keyed_object",
+      "value": {
+        "FIXTURE_PRIVATE_DELTA": {
+          "path": "fixture/private/delta.bam",
+          "status": "accepted"
+        }
+      }
+    },
+    {
+      "label": "malformed_array",
+      "value": [
+        {
+          "sample_id": "FIXTURE_PRIVATE_EPSILON",
+          "status": "accepted"
+        },
+        "FIXTURE_PRIVATE_RECORD"
+      ]
+    }
+  ]
+}

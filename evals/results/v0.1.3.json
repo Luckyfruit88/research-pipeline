@@ -1,0 +1,157 @@
+{
+  "version": "0.1.3",
+  "recorded_at_utc": "2026-10-24T09:14:07.662080+00:00",
+  "base_commit": "6446ce20df9e0d5162c9c0fd88b8566c7f4543b2",
+  "evaluation_method": "maintainer scenario review with executed standard-library examples, not a blind agent evaluation",
+  "python_version": "3.14.4",
+  "linkage_levels": {
+    "candidate_count": 3,
+    "supported_participant_count": 1,
+    "participant_conflict_count": 1,
+    "unresolved_exact_specimen_count": 1,
+    "same_visit_supported_count": 0,
+    "missing_selected_specimen_visit_preserved": true,
+    "native_files_checked": false,
+    "molecular_identity_tested": false,
+    "qc_or_independence_established": false
+  },
+  "bounded_diagnostics": {
+    "reports": [
+      {
+        "container_type": "array",
+        "status": "summarized",
+        "record_count": 3,
+        "accepted_count": 2,
+        "unknown_status_count": 1
+      },
+      {
+        "container_type": "object",
+        "status": "unexpected_container",
+        "record_count": null,
+        "accepted_count": null,
+        "unknown_status_count": null
+      },
+      {
+        "container_type": "array",
+        "status": "unexpected_record",
+        "record_count": 2,
+        "accepted_count": null,
+        "unknown_status_count": null
+      }
+    ],
+    "allowed_fields_only": true,
+    "fixture_private_markers_absent": true,
+    "empty_and_null_inputs_checked": true
+  },
+  "installer_code_changed": false,
+  "runtime_sha256": {
+    "LICENSE": "0a2c55e8644ddc5c106467917946bcfdea06d1bf8a51ea7d883154dd72eb8d31",
+    "SKILL.md": "7fe425227034cd325017c9f51bbbab10e3439738aea23510d74e83b430ece51c",
+    "agents/openai.yaml": "4e2396e004f0dacb1fe5b3b03a76d976f4e9f2cf6ef1b375cf2026fe9d9734fa",
+    "references/design.md": "2e76d9131fedc18c4ce6c4ce395e7487eb81c9da717babba42398ac1ea55f50b",
+    "references/evidence.md": "81bdb71076c61874d050f35b02885de4c1aabf51b203bd2bfcaf59e775fcddaa",
+    "references/execution.md": "8d30a8753ef1a24b2ed97e5cf9199338e3a62bd1b70a8325a7f12a8b78d6f119",
+    "references/state.md": "ed4dff9a2ead4335475deeb079c0dc922d090620b46a722682be8164d7740681",
+    "templates/stage-record.md": "4543869d7cc89a8a09fa81ee76f39ed20332def65ec8bafb54f9117048acbbd2"
+  },
+  "upstream_review": [
+    {
+      "repo": "Galaxy-Dawn/claude-scholar",
+      "branch": "codex",
+      "head": "b672e80951a2348dd6136316d096603bf2dc5b83",
+      "date": "2026-09-23T07:02:54Z",
+      "subject": "Merge pull request #51 from Galaxy-Dawn/fix/issue-49-codex",
+      "archived": false,
+      "license": "MIT",
+      "private": false,
+      "license_observed": "MIT",
+      "decision": "Reviewed branch unchanged; reuse the previous research-contract assessment.",
+      "source_url": "https://github.com/Galaxy-Dawn/claude-scholar/commit/b672e80951a2348dd6136316d096603bf2dc5b83"
+    },
+    {
+      "repo": "Orchestra-Research/AI-Research-SKILLs",
+      "branch": "main",
+      "head": "773a52944ba4747a18bd4ae9ade53fff041adcbc",
+      "date": "2026-06-16T01:36:40Z",
+      "subject": "release: v1.7.2 \u2014 ship Qoder agent auto-detection to npm",
+      "archived": false,
+      "license": "MIT",
+      "private": false,
+      "license_observed": "MIT",
+      "decision": "Reviewed branch unchanged; no new dependency or workflow needed.",
+      "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/commit/773a52944ba4747a18bd4ae9ade53fff041adcbc"
+    },
+    {
+      "repo": "Imbad0202/academic-research-skills",
+      "branch": "main",
+      "head": "c43c529641daf9f5e464b1e001f31501286d6680",
+      "date": "2026-10-24T07:30:34Z",
+      "subject": "fix(pipeline): a prior integrity report is context for Stage 2.5, never a skip (#995) (#1010)",
+      "archived": false,
+      "license": "NOASSERTION",
+      "private": false,
+      "license_observed": "CC BY-NC 4.0 (POSITIONING.md)",
+      "decision": "Reviewed integrity-stage rerun change and CC BY-NC 4.0 positioning. Do not import paper-specific mandatory reruns as universal research checks; no content vendored.",
+      "source_url": "https://github.com/Imbad0202/academic-research-skills/commit/c43c529641daf9f5e464b1e001f31501286d6680"
+    },
+    {
+      "repo": "nextflow-io/agent-skills",
+      "branch": "master",
+      "head": "5ed41d00a93442fa1b8973c80fb23b74f3af537e",
+      "date": "2026-10-13T11:55:35Z",
+      "subject": "Update migrate-nextflow-code skill (#15)",
+      "archived": false,
+      "license": "Apache-2.0",
+      "private": false,
+      "license_observed": "Apache-2.0",
+      "decision": "Reviewed migration update requiring Nextflow 26.10+ and removal of old language-server helpers. No such dependency exists in this skill; no migration required.",
+      "source_url": "https://github.com/nextflow-io/agent-skills/commit/5ed41d00a93442fa1b8973c80fb23b74f3af537e"
+    },
+    {
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "branch": "main",
+      "head": "593377bb048752abb0152deab9fbb1083a6087df",
+      "date": "2026-10-19T09:33:56Z",
+      "subject": "chore: update security scan report [skip ci]",
+      "archived": false,
+      "license": "MIT",
+      "private": false,
+      "license_observed": "MIT",
+      "decision": "Reviewed current security-scan update and found no new statistical-analysis skill commits in the maintenance interval. Reuse the previous scoped assessment.",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/593377bb048752abb0152deab9fbb1083a6087df"
+    },
+    {
+      "repo": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "branch": "main",
+      "head": "23745b69a14880b5716d1773e5d20f5f1e6ab1d6",
+      "date": "2026-10-22T06:23:13Z",
+      "subject": "Merge pull request #476 from monsterlag/fix/issue-240-adf9",
+      "archived": false,
+      "license": "MIT",
+      "private": false,
+      "license_observed": "MIT",
+      "decision": "Reviewed README navigation and anchor-test changes; no research-runtime change needed.",
+      "source_url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/commit/23745b69a14880b5716d1773e5d20f5f1e6ab1d6"
+    }
+  ],
+  "upstream_implementation_vendored": false,
+  "new_runtime_dependencies": [],
+  "software_checks": {
+    "package": {
+      "exit_code": 0,
+      "status": "PASS"
+    },
+    "installer": {
+      "exit_code": 0,
+      "status": "PASS",
+      "test_count": 23
+    },
+    "skill_validator": {
+      "status": "PASS",
+      "message": "Skill is valid!"
+    },
+    "whitespace": {
+      "status": "PASS"
+    }
+  }
+}

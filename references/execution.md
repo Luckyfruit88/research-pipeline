@@ -8,6 +8,8 @@ Inspect the worktree, instructions, resources, outputs and active jobs that the 
 
 Use the authorized branch/worktree and preserve unrelated work. Keep controlled inputs and detailed results within the approved environment. Before a public release, review the exact publishable files; do not copy private logs, host paths or study material into a generic skill or example.
 
+Apply the approved sharing boundary to diagnostic stdout, tool responses, errors, screenshots and downloads as well as saved files. Check a payload's container, element types and expected schema before selecting fields. For aggregate-only reporting, construct an explicit allowlist of permitted counts, statuses and schema fields; never dump raw records, arrays, payload representations or arbitrary key names. Identifiers can occur in keys, paths and error messages too. Keep detailed diagnostics in the approved environment; calling a field metadata does not make it shareable.
+
 Start with a bounded case that exercises the actual interface or failure mode. Keep native output, parameters and logs. Confirm coordinate/strand/allele conversions and score semantics when applicable. Retain offline synthetic tests separately from real-tool acceptance. A synthetic fixture is explicitly synthetic even when a real executable processes it.
 
 After that diagnostic, complete the full requested stage within the approved resource envelope. Do not stop permanently at a smoke test.
