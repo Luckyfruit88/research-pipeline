@@ -6,7 +6,7 @@ Use when framing a question, choosing a direction, designing a measurement, or p
 
 Read the actual inventory, schemas, metadata, documented prior analyses and access conditions before proposing a direction. Distinguish files that exist, fields that are usable, measurements that are identifiable, and outcomes that have been independently validated.
 
-Prefer a question whose discriminating measurement can be made with available or realistically obtainable resources. A larger literature search or a more fashionable method is not inherently a better next action. Bound a source search by named source classes, missing fields and a stopping rule; return a defensible limitation when the bound is reached.
+Prefer a question whose discriminating measurement can be made with available or realistically obtainable resources. A larger literature search or a more fashionable method is not inherently a better next action.
 
 For each serious candidate, articulate:
 - the biological or scientific question and the closest prior work;
@@ -14,7 +14,13 @@ For each serious candidate, articulate:
 - a competing explanation and evidence that would distinguish it;
 - feasibility, information requirements and the decision after the first measurement.
 
-Recommend one path with reasons, while preserving the comparison range requested by the user. Do not infer novelty from a failed keyword search. Verify prior work with primary sources when novelty affects the decision.
+Recommend one path with reasons, while preserving the comparison range requested by the user.
+
+## Ground the design in papers and code
+
+For a new study design or substantial method selection, actively retrieve relevant published research and GitHub implementations using available tools, following [paper-code-discovery.md](paper-code-discovery.md). Use the evidence to choose a method, assess feasibility and specify the first discriminating check. Reuse supplied or previously verified sources when they still support that decision; refresh material gaps and current facts. Respect retrieval restrictions and report unavailable evidence.
+
+A bounded explanation of an existing metric or a local repair does not require a new literature survey. Load the discovery reference only when external research or implementation evidence affects the current design.
 
 ## Make the endpoint measurable
 

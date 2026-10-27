@@ -8,7 +8,7 @@ Research Pipeline helps turn existing data and a research question into a comple
 
 ## What it helps with
 
-- Turn an existing resource inventory into a testable question and measurable endpoint.
+- Turn an existing resource inventory into a testable question, using published research and linked code to assess methods and feasibility.
 - Design comparisons with explicit units, normalization/aggregation order, dependence, leakage controls and uncertainty.
 - Reproduce documented methods with explicit provenance limits; preserve source table identity and native tool semantics.
 - Verify real execution, shared-compute budgets, stage-specific cache recovery, artifact integrity and final receipts.
@@ -21,6 +21,7 @@ The workflow uses an engineering-control perspective: observe the current state,
 ~~~text
 Use $research-pipeline to design a study from the datasets already available.
 Define the measurable endpoint, competing explanations and feasibility checks.
+Search relevant papers and GitHub implementations to support the design choices.
 ~~~
 
 ~~~text
@@ -34,6 +35,8 @@ Recover valid products, account for the complete target list, and verify the rep
 ~~~
 
 For bounded research questions, inspect only relevant inputs, reuse still-valid checks, and stop when the requested deliverable is complete.
+
+New designs and substantial method choices use [bounded paper and code discovery](references/paper-code-discovery.md): inspect primary papers and supplements, verify repository relationships and versions, and connect the evidence to data compatibility and a concrete next check. Retrieval uses tools available to the host; no specific search service is required. Source inspection and successful execution remain separate evidence levels.
 
 For cross-assay linkage, distinguish participant, specimen, visit and file evidence. In controlled-data work, apply the authorized reporting boundary to diagnostic output as well as saved artifacts.
 
@@ -87,7 +90,7 @@ python3 scripts/check_package.py
 python3 -m unittest discover -s tests -v
 ~~~
 
-Package checks cover local links, runtime files and metadata. Installer tests use temporary directories. [Behavioral cases](evals/README.md) use fabricated fixtures and do not contact a real cluster. See [the version 0.1.3 evaluation record](evals/results/v0.1.3.md) for this patch and [the initial evaluation](evals/results/v0.1.0.md) for the original forward-runs; their scopes and limitations remain separate.
+Package checks cover local links, runtime files and metadata. Installer tests use temporary directories. [Behavioral cases](evals/README.md) use fabricated fixtures and do not contact a real cluster. See [the version 0.1.4 evaluation record](evals/results/v0.1.4.md) for this patch and [the initial evaluation](evals/results/v0.1.0.md) for the original forward-runs; their scopes and limitations remain separate.
 
 For changes, keep the entrypoint small, move conditional guidance into references, and rerun the relevant behavioral cases. A reference case is a regression aid, not evidence of broad model reliability.
 
