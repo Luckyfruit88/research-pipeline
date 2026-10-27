@@ -1,0 +1,79 @@
+{
+  "version": "0.1.4",
+  "evaluation_method": "maintainer scenario review plus one read-only live source probe; no blind agent evaluation",
+  "scenario_review": {
+    "provisional_choice": "Cedar",
+    "native_execution_verified": false,
+    "Aurora_ready_for_target": false,
+    "metrics_directly_comparable": false,
+    "fallback": "retain missing evidence and resolve methods/input/implementation gaps",
+    "bounded_followup": "reuse supplied split description without a new search"
+  },
+  "live_retrieval": {
+    "retrieved_on": "2026-10-27",
+    "query": "site.pmc.ncbi.nlm.nih.gov \"Minimap2: pairwise alignment for nucleotide sequences\"",
+    "paper": {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29750242/",
+      "doi": "10.1093/bioinformatics/bty191",
+      "publication_status": "published",
+      "inspected_scope": "bibliographic record, abstract and availability statement",
+      "full_text_access": "PMC browser check; methods and supplements not inspected"
+    },
+    "repo": {
+      "name": "lh3/minimap2",
+      "head": "3c28777e7e2dcc90f825de1b9f17a89cca7d4452",
+      "archived": false,
+      "license_api": "NOASSERTION",
+      "license_text": "MIT",
+      "relationship": "explicit repository URL in the article availability statement",
+      "files": [
+        {
+          "path": "README.md",
+          "url": "https://github.com/lh3/minimap2/blob/3c28777e7e2dcc90f825de1b9f17a89cca7d4452/README.md"
+        },
+        {
+          "path": "LICENSE.txt",
+          "url": "https://github.com/lh3/minimap2/blob/3c28777e7e2dcc90f825de1b9f17a89cca7d4452/LICENSE.txt"
+        },
+        {
+          "path": "Makefile",
+          "url": "https://github.com/lh3/minimap2/blob/3c28777e7e2dcc90f825de1b9f17a89cca7d4452/Makefile"
+        }
+      ]
+    },
+    "installed_or_executed": false,
+    "scientific_suitability_assessed": false,
+    "historical_result_reproduction": false
+  },
+  "runtime_sha256": {
+    "LICENSE": "0a2c55e8644ddc5c106467917946bcfdea06d1bf8a51ea7d883154dd72eb8d31",
+    "SKILL.md": "faaf28f610acf6c4d3e75cfa09fd88e54596f258892a09d517125c2c75899ebe",
+    "agents/openai.yaml": "4e2396e004f0dacb1fe5b3b03a76d976f4e9f2cf6ef1b375cf2026fe9d9734fa",
+    "references/design.md": "e689ea72990394d466b1ff43a781ec3b86bc3e39d716c8339a092985653eda43",
+    "references/evidence.md": "81bdb71076c61874d050f35b02885de4c1aabf51b203bd2bfcaf59e775fcddaa",
+    "references/execution.md": "8d30a8753ef1a24b2ed97e5cf9199338e3a62bd1b70a8325a7f12a8b78d6f119",
+    "references/paper-code-discovery.md": "e60ec64c00bbf2c437455661223eb67781a268927c393e438505315ff479a3fb",
+    "references/state.md": "ed4dff9a2ead4335475deeb079c0dc922d090620b46a722682be8164d7740681",
+    "templates/stage-record.md": "4543869d7cc89a8a09fa81ee76f39ed20332def65ec8bafb54f9117048acbbd2"
+  },
+  "new_runtime_dependencies": [],
+  "upstream_implementation_vendored": false,
+  "software_checks": {
+    "package": {
+      "status": "PASS",
+      "exit_code": 0
+    },
+    "installer": {
+      "status": "PASS",
+      "exit_code": 0,
+      "tests": 23
+    },
+    "skill_validator": {
+      "status": "PASS",
+      "message": "Skill is valid!"
+    },
+    "diff_check": {
+      "status": "PASS"
+    }
+  }
+}

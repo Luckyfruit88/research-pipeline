@@ -17,5 +17,6 @@ No network, real cluster, paid computation, external communication or persistent
 | cache-stages | Reuse valid intermediates while preserving the required cohort-wide stage |
 | linkage-levels | Resolve exact specimen links without inventing visit or molecular identity evidence |
 | bounded-diagnostics | Inspect changing payload shapes while returning only authorized aggregate fields |
+| paper-code-selection | Compare paper evidence with implementation fit under bounded, offline retrieval |
 
 Afterward, inspect the actual artifacts using [the rubric](rubric.md). Keep engineering observations separate from scientific validity. Record model/runtime, input scope, failures, revisions and limitations in the versioned evaluation record. Do not report an unrun case as passing.
