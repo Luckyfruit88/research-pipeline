@@ -38,6 +38,8 @@ For bounded research questions, inspect only relevant inputs, reuse still-valid 
 
 New designs and substantial method choices use [bounded paper and code discovery](references/paper-code-discovery.md): inspect primary papers and supplements, verify repository relationships and versions, and connect the evidence to data compatibility and a concrete next check. Retrieval uses tools available to the host; no specific search service is required. Source inspection and successful execution remain separate evidence levels.
 
+Statistical calibration is tied to the actual estimand, dependence and decision rule. Component diagnostics or a near-zero control mean do not certify a final interval; new checks are scoped to the affected inference.
+
 For cross-assay linkage, distinguish participant, specimen, visit and file evidence. In controlled-data work, apply the authorized reporting boundary to diagnostic output as well as saved artifacts.
 
 It does not normally activate for a standalone factual lookup, translation or prose-only edit. It complements available domain, statistics, NGS, specification and writing skills without requiring them.
@@ -90,7 +92,7 @@ python3 scripts/check_package.py
 python3 -m unittest discover -s tests -v
 ~~~
 
-Package checks cover local links, runtime files and metadata. Installer tests use temporary directories. [Behavioral cases](evals/README.md) use fabricated fixtures and do not contact a real cluster. See [the version 0.1.4 evaluation record](evals/results/v0.1.4.md) for this patch and [the initial evaluation](evals/results/v0.1.0.md) for the original forward-runs; their scopes and limitations remain separate.
+Package checks cover local links, runtime files and metadata. Installer tests use temporary directories. [Behavioral cases](evals/README.md) use fabricated fixtures and do not contact a real cluster. See [the version 0.1.5 evaluation record](evals/results/v0.1.5.md) for this patch and [the initial evaluation](evals/results/v0.1.0.md) for the original forward-runs; their scopes and limitations remain separate.
 
 For changes, keep the entrypoint small, move conditional guidance into references, and rerun the relevant behavioral cases. A reference case is a regression aid, not evidence of broad model reliability.
 

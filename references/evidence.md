@@ -50,6 +50,16 @@ When hiding a source, remove equivalent and derived information, including REF/A
 
 Evaluate complete inputs, prespecified missing-source combinations, natural unsupported contexts and abstention. Artificial masking does not represent every real missingness mechanism. Report errors and coverage together; a favorable intersection of successful predictions can conceal failures.
 
+## Scope of statistical calibration
+
+When a conclusion depends on calibration, bind that evidence to the estimand, population, measurement/label definition, dependence structure, preprocessing/fitting path and final decision rule. Material changes need the affected calibration; retain valid engineering and unaffected checks. Plan missing checks within the current authorization instead of automatically launching a large simulation.
+
+Evaluate the final estimator, interval and decision as needed. A control mean near zero does not establish tail error or interval coverage. Component-level inflation cannot be multiplied into an aggregate error rate without its joint structure. Simulations must generate outcomes under the intended design and reproduce the relevant analysis steps. Resampling must respect dependence; justify exchangeability before label permutations.
+
+Choose decision-relevant null, weak-signal/boundary and plausible misspecification scenarios. Report the relevant bias, coverage/error rates, power or precision, together with failed fits and Monte Carlo uncertainty. Strong-signal results or checks at a different parameter range support only their tested scope.
+
+See [Morris, White and Crowther (2019)](https://doi.org/10.1002/sim.8086), sections 3 and 5, for simulation design and performance measures.
+
 ## Claims and independent checks
 
 For each consequential claim, record evidence, allowed wording, stronger unsupported wording, contradictions, limitations and the next discriminating measurement.

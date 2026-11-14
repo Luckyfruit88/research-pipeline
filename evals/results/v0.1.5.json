@@ -1,0 +1,176 @@
+{
+  "version": "0.1.5",
+  "recorded_at_utc": "2026-11-14T09:07:52.997150+00:00",
+  "base_commit": "7983505e8afecd3f1476f0cbf4cf057ac162fd99",
+  "evaluation_method": "maintainer scenario review with executed deterministic arithmetic; no blind agent evaluation",
+  "python_version": "3.14.4",
+  "counterexample": {
+    "identical_component_distributions": true,
+    "aligned": {
+      "component_count": 32,
+      "component_mean": 0.0,
+      "component_threshold_crossings": 16,
+      "row_count": 8,
+      "row_mean_average": 0.0,
+      "row_mean_threshold_crossings": 4
+    },
+    "balanced": {
+      "component_count": 32,
+      "component_mean": 0.0,
+      "component_threshold_crossings": 16,
+      "row_count": 8,
+      "row_mean_average": 0.0,
+      "row_mean_threshold_crossings": 0
+    },
+    "arbitrary_threshold": 1.75,
+    "real_calibration_or_coverage_established": false
+  },
+  "scenario_review": {
+    "reuse": "unchanged input/row checks and unaffected transform tests",
+    "not_transferred": "component-score evidence for an older label and independent rows does not validate the revised dependent final contrast",
+    "next_check": "evaluate the final contrast, interval and decision under relevant null/weak and plausible misspecified regimes; retain dependence, analysis steps, failed fits and simulation uncertainty",
+    "research_runs_executed": false
+  },
+  "runtime_sha256": {
+    "LICENSE": "0a2c55e8644ddc5c106467917946bcfdea06d1bf8a51ea7d883154dd72eb8d31",
+    "SKILL.md": "6e6f0f6d8171fcf7e014bac7268ce6848d22b71ddb095523ff5be1a686c8a35a",
+    "agents/openai.yaml": "4e2396e004f0dacb1fe5b3b03a76d976f4e9f2cf6ef1b375cf2026fe9d9734fa",
+    "references/design.md": "e689ea72990394d466b1ff43a781ec3b86bc3e39d716c8339a092985653eda43",
+    "references/evidence.md": "0a06ad1affdccf4403a92b93106c65b973fb4987f0a2e8bee18be00e2e9255fa",
+    "references/execution.md": "8d30a8753ef1a24b2ed97e5cf9199338e3a62bd1b70a8325a7f12a8b78d6f119",
+    "references/paper-code-discovery.md": "e60ec64c00bbf2c437455661223eb67781a268927c393e438505315ff479a3fb",
+    "references/state.md": "ed4dff9a2ead4335475deeb079c0dc922d090620b46a722682be8164d7740681",
+    "templates/stage-record.md": "4543869d7cc89a8a09fa81ee76f39ed20332def65ec8bafb54f9117048acbbd2"
+  },
+  "scientific_source": {
+    "doi": "10.1002/sim.8086",
+    "url": "https://doi.org/10.1002/sim.8086",
+    "inspected_scope": "publisher full text, sections 3 and 5 on simulation design, target/performance measures and Monte Carlo uncertainty",
+    "retrieved_on": "2026-11-14"
+  },
+  "upstream_review": [
+    {
+      "repo": "Galaxy-Dawn/claude-scholar",
+      "branch": "codex",
+      "head": "b672e80951a2348dd6136316d096603bf2dc5b83",
+      "date": "2026-09-23T07:02:54Z",
+      "subject": "Merge pull request #51 from Galaxy-Dawn/fix/issue-49-codex",
+      "archived": false,
+      "private": false,
+      "license": "MIT",
+      "default_branch": "main",
+      "changed": false,
+      "license_observed": "MIT",
+      "decision": "Reviewed Codex branch unchanged; reuse the research-contract assessment.",
+      "source_url": "https://github.com/Galaxy-Dawn/claude-scholar/commit/b672e80951a2348dd6136316d096603bf2dc5b83"
+    },
+    {
+      "repo": "Orchestra-Research/AI-Research-SKILLs",
+      "branch": "main",
+      "head": "773a52944ba4747a18bd4ae9ade53fff041adcbc",
+      "date": "2026-06-16T01:36:40Z",
+      "subject": "release: v1.7.2 \u2014 ship Qoder agent auto-detection to npm",
+      "archived": false,
+      "private": false,
+      "license": "MIT",
+      "default_branch": "main",
+      "changed": false,
+      "license_observed": "MIT",
+      "decision": "Reviewed branch unchanged; no new workflow or dependency needed.",
+      "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/commit/773a52944ba4747a18bd4ae9ade53fff041adcbc"
+    },
+    {
+      "repo": "Imbad0202/academic-research-skills",
+      "branch": "main",
+      "head": "adc3529754e0d2aa4b4d9c839092b711d7ca2bd0",
+      "date": "2026-11-14T08:25:01Z",
+      "subject": "fix(reviewer): the field analyst names no journal without a confirmed target (#1080) (#1086)",
+      "archived": false,
+      "private": false,
+      "license": "NOASSERTION",
+      "default_branch": "main",
+      "changed": true,
+      "license_observed": "CC BY-NC 4.0 (POSITIONING.md)",
+      "decision": "Reviewed target-journal constraints in the field analyst and pinned CC BY-NC 4.0 positioning. Existing scope preservation covers the relevant principle; no manuscript-review workflow or content imported.",
+      "source_url": "https://github.com/Imbad0202/academic-research-skills/commit/adc3529754e0d2aa4b4d9c839092b711d7ca2bd0"
+    },
+    {
+      "repo": "nextflow-io/agent-skills",
+      "branch": "master",
+      "head": "0c7690466a2bb040cd6c5eab338f15aea8080d53",
+      "date": "2026-10-29T20:21:08Z",
+      "subject": "Add archive notice to README (#18)",
+      "archived": true,
+      "private": false,
+      "license": "Apache-2.0",
+      "default_branch": "master",
+      "changed": true,
+      "license_observed": "Apache-2.0",
+      "decision": "Repository is now archived and points to seqeralabs/nextflow-plugin. Inspect the successor for future engine-specific work; this skill has no dependency to migrate.",
+      "source_url": "https://github.com/nextflow-io/agent-skills/commit/0c7690466a2bb040cd6c5eab338f15aea8080d53"
+    },
+    {
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "branch": "main",
+      "head": "2d2065fb4520fa3f3f2bcf61cff26ec8b7eba4b5",
+      "date": "2026-11-09T09:17:47Z",
+      "subject": "chore: update security scan report [skip ci]",
+      "archived": false,
+      "private": false,
+      "license": "MIT",
+      "default_branch": "main",
+      "changed": true,
+      "license_observed": "MIT",
+      "decision": "No new statistical-analysis/SKILL.md commits in the maintenance interval; current head updates the security scan. Reuse the prior scoped assessment.",
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills/commit/2d2065fb4520fa3f3f2bcf61cff26ec8b7eba4b5"
+    },
+    {
+      "repo": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "branch": "main",
+      "head": "8f493923f28c3f991dcca1287db97aa780d0969b",
+      "date": "2026-11-11T07:39:57Z",
+      "subject": "Merge pull request #497 from wanshuiyin/fix/ssh-environment-reuse",
+      "archived": false,
+      "private": false,
+      "license": "MIT",
+      "default_branch": "main",
+      "changed": true,
+      "license_observed": "MIT",
+      "decision": "Reviewed compute-environment reuse, preparation retry limits and SSH sync changes. Existing evidence reuse and bounded repair rules cover the applicable behavior; do not add environment rebuilds or mandatory fresh reviews.",
+      "source_url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/commit/8f493923f28c3f991dcca1287db97aa780d0969b"
+    },
+    {
+      "repo": "seqeralabs/nextflow-plugin",
+      "branch": "main",
+      "head": "16bf099a4124f330d58c505d5fb72cfd9b8b1f85",
+      "date": "2026-11-06T18:53:00Z",
+      "archived": false,
+      "private": false,
+      "license": "Apache-2.0",
+      "license_observed": "Apache-2.0 (LICENSE)",
+      "decision": "Successor confirmed by archived repository notice. Inspected README, LICENSE and migration skill: local migration needs Nextflow 26.10+, hosted features have separate service requirements. No dependency installed or implementation imported.",
+      "source_url": "https://github.com/seqeralabs/nextflow-plugin/tree/16bf099a4124f330d58c505d5fb72cfd9b8b1f85"
+    }
+  ],
+  "installer_code_changed": false,
+  "new_runtime_dependencies": [],
+  "upstream_implementation_vendored": false,
+  "software_checks": {
+    "package": {
+      "status": "PASS",
+      "exit_code": 0
+    },
+    "installer": {
+      "status": "PASS",
+      "exit_code": 0,
+      "test_count": 23
+    },
+    "skill_validator": {
+      "status": "PASS",
+      "message": "Skill is valid!"
+    },
+    "whitespace": {
+      "status": "PASS"
+    }
+  }
+}
