@@ -1,0 +1,54 @@
+{
+  "notice": "All study objects, receipts and values are fabricated.",
+  "authorization": "Review and small offline calculations only. No original-data analysis, cluster access, installation or external communication.",
+  "unchanged_engineering_checks": [
+    "input schema and stable-row checks",
+    "implementation unit tests for unchanged transforms"
+  ],
+  "archived_calibration": {
+    "label": "annotation-defined category",
+    "records": "one row per independent specimen",
+    "target": "component score",
+    "effect_grid": [
+      0,
+      0.6,
+      1
+    ],
+    "reported_evidence": [
+      "control mean near zero",
+      "component tail counts"
+    ],
+    "final_contrast_interval_evaluated": false
+  },
+  "current_design": {
+    "label": "measured event category",
+    "records": "repeated outcomes per participant with related-participant clusters",
+    "target": "adjusted category contrast with its interval and decision rule",
+    "parameter_region_of_interest": [
+      0.01,
+      0.08
+    ],
+    "final_calibration_status": "not evaluated"
+  },
+  "toy_counterexample": {
+    "base_values": [
+      -3,
+      -2,
+      -1,
+      -0.5,
+      0.5,
+      1,
+      2,
+      3
+    ],
+    "constructions": {
+      "aligned": "For each x, make one row [x,x,x,x].",
+      "balanced": "For each x, make one row [x,x,-x,-x]."
+    },
+    "component_summary": "all 32 values flattened",
+    "final_summary": "mean of each row of four",
+    "threshold": 1.75,
+    "threshold_rule": "count absolute values strictly greater than threshold",
+    "interpretation": "Deterministic counterexample only; threshold is an arbitrary fixture rule, not a claimed significance cutoff."
+  }
+}
